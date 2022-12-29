@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 16.16.0
+      nodejs: 16
     commands:
       - npm install -g typescript
       - npm install
@@ -22,6 +22,8 @@ cache:
     - 'node_modules/**/*
 artifacts:
   files:
+    - package.json
+    - package-lock.json
     - '**/*'
   discard-paths: no
   base-directory: build
