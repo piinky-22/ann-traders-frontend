@@ -20,6 +20,4 @@ phases:
       - echo Build complete
 artifacts:
   files:
-    - index.html
-    - "build/*"
-    - "build/**/*"
+    - '**/*'
