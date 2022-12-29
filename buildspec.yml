@@ -18,3 +18,8 @@ phases:
   post_build:
     commands:
       - echo Build complete
+artifacts:
+  files:
+    - index.html
+    - "build/*"
+    - "build/**/*"
