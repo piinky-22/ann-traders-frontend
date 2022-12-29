@@ -18,10 +18,3 @@ phases:
   post_build:
     commands:
       - echo Build complete
-artifacts:
-  files:
-    - package.json
-    - package-lock.json
-    - node_modules/**/*
-  discard-paths: no
-  base-directory: build
