@@ -1,3 +1,10 @@
+#
+1. clone repository 
+then in vs code run
+2. npm i
+3. npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
